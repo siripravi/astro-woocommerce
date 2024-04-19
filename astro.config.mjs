@@ -11,11 +11,11 @@ export default defineConfig({
     vue(),
     tailwind(),
     sitemap({
-      customPages: ["http://localhost:3001", "http://localhost:3001/products"]
+      customPages: ["https://cakeoncall-7u80vmjej-siripravis-projects.vercel.app/", "https://cakeoncall-7u80vmjej-siripravis-projects.vercel.app//products"]
     }),
     image()
   ],
   output: "server",
   adapter: vercel(),
- site: "http://localhost:3001"
+ site: "https://cakeoncall-7u80vmjej-siripravis-projects.vercel.app/"
 })

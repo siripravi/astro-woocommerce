@@ -11,11 +11,11 @@ export default defineConfig({
     vue(),
     tailwind(),
     sitemap({
-      customPages: ["https://astro.dfweb.no", "https://astro.dfweb.no/products"]
+      customPages: ["http://localhost:3001", "http://localhost:3001/products"]
     }),
     image()
   ],
   output: "server",
   adapter: vercel(),
-  site: "https://astro.dfweb.no"
+ site: "http://localhost:3001"
 })
